@@ -1,3 +1,15 @@
+h1{
+  margin: 5% 10%;
+}
+
+body {
+  /* background-color: black; */
+  background: rgb(0,13,36);
+  background: linear-gradient(90deg, rgba(0,13,36,1) 0%, rgba(9,120,121,0.7680997670807453) 35%, rgba(0,223,255,1) 100%);
+  color: cornsilk;
+  padding: 10px 30px;
+}
+
 .App {
   text-align: center;
 }
@@ -11,17 +23,6 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
